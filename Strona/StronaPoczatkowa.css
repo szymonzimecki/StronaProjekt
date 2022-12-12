@@ -1,0 +1,476 @@
+/* Header */
+#header{
+	width: 100%;
+    background-color: #2B4080;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 4px 20px rgb(0 0 0 / 40%);
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+
+#header input{
+	border-radius: 10px;
+	border: none;
+}
+
+#header img{
+	position: absolute;
+	width: 150px;
+    top: -18px;
+}
+
+#header h1{
+	margin: 0px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px #8f8f8f;
+}
+
+/* Przyciski np. Strona Główna, Wpisy itd. */
+#Bar{
+	text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+#Bar a{
+    color: white;
+    margin: 2px;
+    margin-top: 10px;
+    padding: 5px 8px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #111933;
+    border: 4px solid #111933;
+}
+
+#Bar a:hover{
+    color: #6396F8;
+}
+
+/* Przyciski do logowania header */
+
+#Login{
+	position: relative;
+    bottom: 120px;
+    display: flex;
+    margin-right: 10px;
+    justify-content: flex-end;
+}
+
+#Login button{
+	border-radius: 10px;
+    margin: 8px 5px;
+	padding: 4px 10px;
+	border: none;
+	background-color: #111933;
+	cursor: pointer;
+}
+
+#Login button:hover{
+	background-color: #111933;
+}
+
+#Login a{
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+}
+
+#Login a:hover{
+	color: #6396F8;
+}
+
+/* Header Box */
+
+.Box{
+	width: 350px;
+	height: 350px;
+	margin: 10px;
+	text-align: center;
+	float: left;
+	border-radius: 10px;
+	background-color: #255589;
+	-webkit-box-shadow: 8px 8px 24px 0px rgba(111, 0, 255, 1);
+	-moz-box-shadow: 8px 8px 24px 0px rgba(111, 0, 255, 1);
+	box-shadow: 8px 8px 24px 0px rgba(111, 0, 255, 1);
+}
+
+.Box .text{
+	width: 350px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.Box iframe{
+	width: 350px;
+	border: none;
+}
+
+.Box img{
+	width: 350px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+/* Body central-box */
+
+#central-box{
+	height: 90%;
+  	width: 90%;
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 10px;
+	color: #6396F8;
+	border-radius: 20px;
+	background-color: #161f3a;
+	position: relative;
+	top: 175px;
+	z-index: 0;
+}
+
+/* Panel Główny */
+
+#glowna-p{
+	margin-left: 40px;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+#central-box h1{
+	margin-left: 40px;
+	font-size: 30px;
+	color: #cdcdcd;
+}
+
+#central-box h3{
+	margin-left: 40px;
+	font-size: 20px;
+	color: #cdcdcd;
+}
+
+#Photo img{
+	margin-left: 40px;
+	border-radius: 10px;
+}
+
+/* Panel Rejestracji */
+
+#register-box{
+	height: 50%;
+	width: 65%;
+	max-width: 260px;
+	margin: auto;
+	overflow: hidden;
+	text-align: center;
+	text-decoration: none;
+  	color: white;
+	padding-bottom: 8px;
+  	border-radius: 15px;
+	border-radius: 10px;
+	background-color: #00000082;
+}
+
+#register-box form{
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#register-box p{
+	font-size: 15px;
+	margin: auto;
+	margin-top: 10px;
+	text-align: center;
+}
+
+#register-box a{
+	text-decoration: none;
+    color: #6396F8;
+}
+
+#register-box h2{
+	width: 100%;
+	padding-bottom: 4px;
+	border-bottom: 4px solid #2B4080;
+}
+
+#register-box input{
+	width: 70%;
+	max-width: 150px;
+	margin: 8px 0;
+	padding: 4px 10px;
+	border: none;
+	border-radius: 10px;
+}
+
+/* Panel Logowania */
+
+#login-box{
+	height: 50%;
+	width: 65%;
+	max-width: 260px;
+	margin: auto;
+	overflow: hidden;
+	text-align: center;
+	text-decoration: none;
+  	color: white;
+	padding-bottom: 8px;
+  	border-radius: 15px;
+	border-radius: 10px;
+	background-color: #00000082;
+}
+
+#login-box p{
+	font-size: 15px;
+	margin: auto;
+	margin-top: 10px;
+	text-align: center;
+}
+
+#login-box a{
+	text-decoration: none;
+    color: #6396F8;
+}
+
+#login-box h2{
+	width: 100%;
+	padding-bottom: 4px;
+	border-bottom: 4px solid #2B4080;
+}
+
+#login-box input{
+	width: 70%;
+    max-width: 150px;
+    margin: 8px 0;
+    padding: 4px 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+#login-box form{
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#login-box .sub{
+	width: 40%;
+	max-width: 250px;
+	border-radius: 10px;
+}
+
+.text-box{
+	width: 80%;
+	border-bottom: 1px solid #2B4080;
+}
+
+/* Panel Administratora */
+
+#AdminPanel{
+	height: 50%;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 8px;
+    display: flex;
+    border-radius: 15px;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+#AdminPanel table, td, th{
+	padding: 10px 5px;
+	border: 2px solid white;
+	border-collapse: collapse;
+}
+
+#AdminPanel th{
+	color: #4464C9;
+}
+
+.error-msg{
+	color: #6396F8;
+}
+
+/* Czy zalogowany? */
+
+#Nzalogowany{
+	color: white;
+	display: flex;
+    justify-content: space-around;
+}
+
+/* Wpisy */
+
+#Szukaj{
+	text-align: center;
+}
+
+#Atrakcje{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Atrakcje a{
+	background: #fff;
+    text-decoration: none;
+    width: 792px;
+    margin-left: 40px;
+    color: black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 4px;
+}
+
+#Atrakcje a:hover{
+	background: #5C85F7;
+	color: white;
+}
+
+.AtrakcjeSzukaj{
+	height: 30px;
+	width: 30%;
+	border-radius: 10px;
+}
+
+.AtrakcjeSubmit{
+	height: 30px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.ZdjeciaWpisy {
+	margin-left: 40px;
+	height: 450px;
+	width: 800px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+}
+
+#Atrakcje input{
+	height: 30px;
+    width: 800px;
+    display: flex;
+    margin-left: 40px;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    justify-content: space-around;
+}
+
+/* Moje Konto */
+#MojeKonto-box{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-box{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#MojeKonto-box input{
+	width: 70%;
+    max-width: 150px;
+    margin: 8px 0;
+    padding: 4px 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+input.sub:hover{
+  background: #6396F8;;
+  border: none;
+  cursor: pointer;
+}
+
+#wyloguj a{
+	text-decoration: none;
+    color: #6396F8;
+}
+
+/* Dodawanie Wpisow */
+
+input.sss {
+    background: #fff;
+    max-width: 200px !important;
+}
+
+/* O firmie */
+
+#Ofirmie{
+	height: 90%;
+  	width: 90%;
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 10px;
+	color: #6396F8;
+	border-radius: 20px;
+	background-color: #161f3a;
+	top: 175px;
+}
+
+#Ofirmie h2{
+	display: flex;
+	justify-content: space-around;
+	color: #cdcdcd;
+}
+
+#Ofirmie p{
+	text-align: center;
+	color: white;
+}
+
+/* Dodaj Atrakcje */
+
+#DodajAtrakcje-box{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-box{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#DodajAtrakcje-box input{
+	width: 70%;
+    max-width: 150px;
+    margin: 8px 0;
+    padding: 4px 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+input.sub:hover{
+  background: #6396F8;;
+  border: none;
+  cursor: pointer;
+}
+
+body{
+	margin: 0px;
+	background: #1e2c58;
+	font-family: sans-serif;
+}
+
+/*
+#b1b1b1
+#ffffff
+*/
